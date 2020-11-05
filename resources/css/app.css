@@ -1,0 +1,45 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.link_menu {
+    @apply text-white mr-8 p-4 rounded-lg text-base font-bold transition duration-500;
+}
+
+.active_category {
+    @apply bg-white flex flex-1 text-center items-center justify-between rounded-lg cursor-pointer shadow-2xl;
+}
+
+.active_category:hover {
+    @apply transform -translate-y-2 border-purple-mazze border-b-4;
+}
+
+.navigation {
+    @apply py-8;
+}
+
+.nav-links {
+    @apply mx-auto w-1/12 flex space-x-4;
+}
+
+.page-numbers {
+    @apply border border-purple-mazze font-medium px-3 py-1 rounded text-purple-mazze;
+}
+
+.page-numbers.current {
+    @apply bg-purple-mazze text-white;
+}
+
+.size-post-thumbnail {
+    width: auto !important;
+
+    @apply rounded-lg;
+}
+
+@screen lg {
+    .size-post-thumbnail {
+        width: 744px !important;
+    }
+}
