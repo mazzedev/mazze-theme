@@ -18,7 +18,7 @@
 	<header class="w-full h-full bg-black top-0">
 		<div class="container mx-auto">
 			<nav>
-				<div class="relative container mx-auto px-6 py-2 flex justify-between items-center">
+				<div class="relative container mx-auto flex justify-between items-center">
 					<!-- Primary Navigation Menu -->
 					<div class="hidden w-full sm:flex items-center justify-between px-4 py-3 bg-gray-90">
 						<div>
@@ -49,9 +49,7 @@
 				</div>
 				<div class="container mx-auto rounded z-10 sm:hidden" id="mobile_menu" x-show.transition="open" x-cloak x-on:click.away="open = false">
 					<ul class="flex flex-col list-none block text-purple-mazze w-full text-center bg-white round">
-						<li class="mr-8 text-base font-bold"><a href="/">Início</a></li>
-						<li class="mr-8 text-base font-bold"><a href="/partners/all">Parceiros</a></li>
-						<li class="mr-8 text-base font-bold"><a href="/about">Sobre</a></li>
+						<?php echo mazze_header_menu(); ?>
 					</ul>
 				</div>
 
