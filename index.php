@@ -8,7 +8,7 @@ get_header();
 ?>
 
 <main id="main" class="container mx-auto px-2 lg:md-0" role="main">
-	<div class="py-12">
+	<div class="py-6 md:py-12">
 		<h1 class="font-semibold text-3xl">Últimas Notícias</h1>
 	</div>
 
