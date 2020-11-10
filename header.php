@@ -50,7 +50,7 @@
 					</div>
 				</div>
 				<div class="container mx-auto rounded z-10 sm:hidden" id="mobile_menu" x-show.transition="open" x-cloak x-on:click.away="open = false">
-					<ul class="flex flex-col list-none block text-purple-mazze w-full text-center bg-white round">
+					<ul class="flex flex-col block text-purple-mazze w-full text-center">
 						<?php echo mazze_header_menu(); ?>
 					</ul>
 				</div>
