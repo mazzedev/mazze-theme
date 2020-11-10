@@ -17,7 +17,7 @@
 
 	<a class="screen-reader-text" href="#content">Skip to content</a>
 
-	<header class="w-full h-full bg-black top-0">
+	<header class="w-full h-full bg-black top-0" x-data="{ open: false }">
 		<div class="container mx-auto">
 			<nav>
 				<div class="relative container mx-auto flex justify-between items-center">
