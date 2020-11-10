@@ -1,4 +1,4 @@
-# untheme
+# Mazze Theme
 
 ### Base theme for WordPress development
 
