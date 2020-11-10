@@ -35,7 +35,7 @@
 					<!-- Responsive Navigation Menu -->
 					<div class="sm:hidden flex items-center justify-between p-3 w-full">
 						<a href="/">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/logobranca.svg" alt="" class="w-4/12 mr-40">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logobranca.svg" alt="" class="w-4/12 mr-40">
 						</a>
 						<div class="block sm:hidden">
 							<button x-on:click="open = true" class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
@@ -56,16 +56,7 @@
 				</div>
 
 			</nav>
-
-			<!-- <nav class="main-navigation">
-				<?php
-				// wp_nav_menu(array(
-				// 	'theme_location' => 'menu-1',
-				// 	'menu_id'        => 'primary-menu',
-				// ));
-				?>
-			</nav> -->
 		</div>
 	</header>
 
-	<div id="content" class="flex flex-grow px-2 md:px-0">
+	<div id="content" class="flex flex-grow md:px-0 md:py-0 py-4 px-2">
