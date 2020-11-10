@@ -6,7 +6,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" class="entry min-h-screen">
+<article id="post-<?php the_ID(); ?>" class="entry lg:min-h-screen">
 	<header class="entry-header lg:mt-20">
 		<h1 class="text-4xl md:text-6xl font-bold text-purple-mazze"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 	</header>
