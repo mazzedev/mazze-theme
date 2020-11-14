@@ -4,8 +4,24 @@
 
 @tailwind utilities;
 
+.nav-item {
+    @apply text-white;
+}
+
 .link_menu {
-    @apply text-white mr-8 p-4 rounded-lg text-base font-bold transition duration-500;
+    @apply text-sm uppercase p-2 flex justify-center items-center rounded-lg font-bold transition duration-500;
+}
+
+.dropdown {
+    @apply relative group;
+}
+
+.dropdown-menu {
+    @apply absolute pt-3 bg-black text-center w-full;
+}
+
+.dropdown-link {
+    @apply text-sm transform uppercase font-medium;
 }
 
 .active_category {
@@ -17,11 +33,11 @@
 }
 
 .navigation {
-    @apply py-8;
+    @apply py-8 flex items-center justify-center;
 }
 
 .nav-links {
-    @apply mx-auto w-1/12 flex space-x-4;
+    @apply flex space-x-4;
 }
 
 .page-numbers {

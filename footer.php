@@ -6,18 +6,13 @@
             <div>
                 <div class="font-bold mb-2">Fique por dentro</div>
                 <ul>
-                    <li>Instagram</li>
-                    <li>Linkedin</li>
-                    <li>Twitter</li>
-                    <li>Facebook</li>
+                    <?php echo mazze_footer_menu('footer-1') ?>
                 </ul>
             </div>
             <div>
                 <div class="font-bold mb-2">Atalhos</div>
                 <ul>
-                    <li>Home</li>
-                    <li>Parceiros</li>
-                    <li>Sobre nos</li>
+                    <?php echo mazze_footer_menu('footer-2') ?>
                 </ul>
             </div>
             <div>
@@ -28,12 +23,10 @@
                     <dt>mazze.gg@gmail.com</dt>
                     <dt>Aracaju - SE, 49020-330</dt>
                 </dl>
-                <dt>
-                </dt>
             </div>
         </div>
         <div class="flex justify-end py-6">
-            <a href="/">
+            <a href="<?php echo home_url() ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logobranca.svg" alt="" class="mr-12">
             </a>
         </div>
