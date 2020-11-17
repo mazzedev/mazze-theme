@@ -33,12 +33,16 @@
             <div class="prose md:prose-xl">
                 <?php the_content(); ?>
             </div>
+            <?php
+            $tags = get_the_tags();
+            if ($tags) : ?>
             <div class="mt-6">
                 <span class="text-purple-mazze font-bold">Tag:</span>
                 <?php foreach (get_the_tags() as $key => $tag) : ?>
                     #<?=$tag->name?>
                 <?php endforeach; ?>
             </div>
+            <?php endif; ?>
         </div>
         <?php if (has_post_thumbnail()) : ?>
             <div class="relative right-auto lg:absolute lg:right-0 row-start-1 lg:row-start-auto">
