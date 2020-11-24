@@ -72,6 +72,6 @@ ul.heateor_sss_follow_ul li, ul.heateor_sss_sharing_ul li {
 
 @screen xl {
     .size-post-thumbnail {
-        width: 744px !important;
+        width: calc(100vw/3) !important;
     }
 }
