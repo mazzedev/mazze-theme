@@ -8,7 +8,7 @@
 
 <article id="post-<?php the_ID(); ?>" class="entry xl:min-h-screen px-2 xl:px-0">
     <header class="entry-header xl:mt-20">
-        <h1 class="text-4xl md:text-6xl font-bold text-purple-mazze"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+        <h1 class="text-4xl lg:text-6xl font-bold text-purple-mazze"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
     </header>
     <?php if (!has_post_thumbnail()) : ?>
         <div class="flex space-x-3 mt-3 font-medium text-base text-gray-600">
