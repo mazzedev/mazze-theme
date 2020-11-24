@@ -6,8 +6,8 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" class="entry lg:min-h-screen">
-    <header class="entry-header lg:mt-20">
+<article id="post-<?php the_ID(); ?>" class="entry xl:min-h-screen px-2 xl:px-0">
+    <header class="entry-header xl:mt-20">
         <h1 class="text-4xl md:text-6xl font-bold text-purple-mazze"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
     </header>
     <?php if (!has_post_thumbnail()) : ?>
@@ -28,9 +28,9 @@
             </div>
         </div>
     <?php endif; ?>
-    <div class="entry-content grid grid-cols-1 <?php if (has_post_thumbnail()) { echo 'lg:grid-cols-3'; } ?> mt-8">
-        <div class="flex flex-col col-span-2 <?php if (!has_post_thumbnail()) { echo 'max-w-none'; } else { echo 'pr-10'; } ?>">
-            <div class="prose md:prose-xl">
+    <div class="entry-content grid grid-cols-1 <?php if (has_post_thumbnail()) { echo 'xl:grid-cols-3'; } ?> mt-8">
+        <div class="flex flex-col col-span-2 <?php if (!has_post_thumbnail()) { echo 'max-w-none'; } else { echo 'xl:pr-10'; } ?>">
+            <div class="prose md:prose-xl max-w-none">
                 <?php the_content(); ?>
             </div>
             <?php
@@ -45,7 +45,7 @@
             <?php endif; ?>
         </div>
         <?php if (has_post_thumbnail()) : ?>
-            <div class="relative right-auto lg:absolute lg:right-0 row-start-1 lg:row-start-auto">
+            <div class="relative mb-3 right-auto xl:absolute xl:right-0 row-start-1 xl:row-start-auto">
                 <?php the_post_thumbnail() ?>
                 <div class="flex flex-col font-medium mt-8 space-y-3 text-base text-gray-600">
                     <div class="text-center text-sm"><?php the_modified_date('d/m/Y h\hi') ?></div>

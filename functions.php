@@ -74,6 +74,11 @@ function untheme_scripts()
 }
 add_action('wp_enqueue_scripts', 'untheme_scripts');
 
+function check_menu_exists($menu_name)
+{
+    return ($locations = get_nav_menu_locations()) && isset($locations[$menu_name]);
+}
+
 function mazze_header_menu($menu_name = 'menu-1')
 {
     if (($locations = get_nav_menu_locations()) && isset($locations[$menu_name])) {
