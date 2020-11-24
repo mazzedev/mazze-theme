@@ -48,6 +48,22 @@
     @apply bg-purple-mazze text-white;
 }
 
+.heateor_sss_sharing_container {
+    @apply flex items-center justify-center;
+}
+
+ul.heateor_sss_follow_ul li, ul.heateor_sss_sharing_ul li {
+    margin: auto !important;
+}
+
+.heateor_sss_sharing_ul {
+    @apply flex justify-center space-x-1;
+}
+
+.heateor_sss_sharing_title {
+    @apply mr-3;
+}
+
 .size-post-thumbnail {
     width: auto !important;
 
