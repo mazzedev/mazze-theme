@@ -22,10 +22,7 @@
             <div>
                 <div class="font-bold mb-2">Contatos</div>
                 <dl>
-                    <dt>Rua Sílvio Cezar Leite, 30 - Salgado Filho</dt>
-                    <dt>(79) 9 9958-4524</dt>
-                    <dt>mazze.gg@gmail.com</dt>
-                    <dt>Aracaju - SE, 49020-330</dt>
+                    <dt>info@mazze.gg</dt>
                 </dl>
             </div>
         </div>
